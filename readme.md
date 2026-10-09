@@ -1104,7 +1104,9 @@ Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itaut
 - [TDT4136 - Assignment 1 Learning – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart3) ✅ Open — A*, admissibility and consistency
 - [TDT4136 - Assignment 2 Learning](https://dev-quizmachine.itautomasjon.no/p/tdt4136assignment2learning) ✅ Open — Constraint Satisfaction Problems
 - [TDT4136 - Lecture 5 Chapter 7 - Logical Agents](https://dev-quizmachine.covecode.net/Quiz/Take/tdt4136lecture5chapter7) ✅ Open — Logical Agents
-- [TDT4136 - Lecture 5 Chapter 8 - First Order Logic](https://dev-quizmachine.covecode.net/Quiz/Take/tdt4136lecture5chapter8) ✅ Open — First Order Logic
+- [TDT4136 - Lecture 6 Chapter 8 - First Order Logic](https://dev-quizmachine.covecode.net/Quiz/Take/tdt4136lecture6chapter8) ✅ Open — First Order Logic
+- [TDT4136 - Lecture 7 Chapter 9 - Inference in First Order Logic](https://dev-quizmachine.covecode.net/Quiz/Take/tdt4136lecture7chapter9) ✅ Open — Inference in First Order Logic
+- [TDT4136 - Lecture 8 Chapter 6 - Adversarial Search and Games](https://dev-quizmachine.covecode.net/Quiz/Take/tdt4136lecture8chapter6) ✅ Open — Adversarial Search and Games
 
 **Assignment 1 – Search Algorithms:**  
 A hand-computation exercise set on the search algorithms from the lectures. The problem is a
