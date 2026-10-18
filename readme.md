@@ -610,18 +610,6 @@ Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.itauto
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic                          | Brief description |
-|-------------------------------------------|-------------------|
-| Why NP-complete matters                    | If any NP-complete problem has a poly-time algorithm, all problems in NP do (poly-time reductions). |
-| TSP vs shortest path                       | Both are path problems; shortest path is poly-time; TSP is NP-hard/NP-complete (decision). |
-| Exact vs approximate                       | When optimality is required vs “good enough” (approximation/heuristics). |
-| Offline vs online                          | Entire input known up-front vs arrives over time (online algorithms, competitiveness). |
-| Loop invariants (init/maint/term)          | Specify invariant, prove initialization, maintenance, termination (SUM-ARRAY, selection sort). |
-| Selection sort facts                       | Maintains: A[1..i−1] sorted and ≤ remaining; runs i=1..n−1; Θ(n²) worst/avg; best is also Θ(n²). |
-| Linear search                              | Average Θ(n), worst Θ(n); simple invariant over scanned prefix. |
-| Master Theorem form                        | T(n) = a·T(n/b) + f(n); know the template and how to fill the blanks. |
-| Two-sum in Θ(n log n)                      | Sort + two-pointer scan; outline steps and correctness idea. |
-| Complexity ranking & simplification        | Rank common classes; combine Θ/O/Ω terms to a single tight order. |
 
 ---
 
@@ -638,18 +626,6 @@ Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.itauto
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **highest focus**
 
-| Topic                          | Brief description |
-|-------------------------------------------|-------------------|
-| Asymptotic notation                       | Θ (tight), O (upper), Ω (lower), o (strictly smaller), ω (strictly larger). Match common forms to names. |
-| Combine bounds                            | O(nᵃ) + Ω(nᵇ) + Θ(nᶜ) → dominated by the largest-order term among the three. |
-| Compare functions                         | Given f and g (e.g., f = n² log n + …, g = n²), decide O/Ω/Θ via limits/ratios and dominant terms. |
-| Sorting runtimes                          | Insertion: best n, avg n², worst n². Merge: best/avg/worst n log n. Quick: best/avg n log n, worst n². |
-| Relax(u, v, w)                            | If dist[v] > dist[u] + w(u,v), set dist[v] ← dist[u] + w and parent[v] ← u. Core of SSSP updates. |
-| Dijkstra vs Bellman–Ford                  | Dijkstra (greedy) for non-negative edges; Bellman–Ford handles negatives and detects negative cycles. |
-| Greedy-choice property                    | A locally optimal step can be extended to a global optimum; still need proof via cut/exchange arguments. |
-| Kruskal and MST                           | MST: spanning tree with minimum total weight. Kruskal: sort edges, add safe light edges using union-find. |
-| Pivot selection in Quicksort              | Pivot choice shapes balance: random keeps expected n log n; bad fixed pivots on sorted data risk n². |
-| Flow vs complexity (Ford–Fulkerson)       | Pseudopolynomial due to capacity magnitudes, not NP-hardness of max-flow (max-flow is polynomial-time). |
 
 
 ---
@@ -670,18 +646,6 @@ Quiz: [Algorithms and Data Structures – Part 3](https://dev-quizmachine.itauto
 - [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic                  | Brief description |
-|-----------------------------------|-------------------|
-| Greedy choice property            | Locally optimal step extends to a global optimum; classic examples: activity selection, Huffman, Kruskal. |
-| Heaps vs binary trees             | When heaps beat BSTs for priority access; array layout vs pointer-based trees; max-heap vs BST order. |
-| Splay trees                       | Self-adjusting BSTs that move accessed nodes near the root by rotations; good amortized performance. |
-| Naive recursion → improvement     | Exponential naive D&C improved by **memoization/tabulation** when optimal substructure + overlap hold. |
-| Sorting family contrasts          | Quick vs Randomized-Quick; Select vs Randomized-Select; effects of using Select inside Quick. |
-| Sorting facts (per algorithm)     | Best/avg/worst, stability, space for Insertion, Merge, Quick, Rand-Quick, Heap. |
-| Complexity classes                | P, NP, NP-complete: verification vs search; reductions to show hardness. |
-| MST basics                        | What an MST is; Prim vs Kruskal (PQ vs sort + union-find); cut and cycle properties. |
-| Max-flow (Ford–Fulkerson)        | Augmenting paths, residual graphs; pseudo-polynomial due to capacity magnitude. |
-| Master Theorem                    | Template T(n)=a·T(n/b)+f(n); identify case via n^{log_b a} and compare with f(n). |
 
 
 ---
@@ -696,20 +660,6 @@ Quiz: [Algorithms and Data Structures – Part 4](https://dev-quizmachine.itauto
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk) ← **highest focus**
 
-| Topic                              | Brief description |
-|-----------------------------------------------|-------------------|
-| Insertion-sort lower bound via crossings      | Pack αn largest at front → many inversions; sum of squared block sizes = Θ(n²) ⇒ worst-case time is Ω(n²). |
-| Max{f,g} vs f+g                               | For nonnegative functions: max{f,g} = Θ(f+g); both upper/lower bound each other within constants. |
-| Meaning of O/Ω/Θ/o/ω                          | “At least O(n²)” is meaningless; use Ω for lower bounds, O for upper, Θ for tight, little-o/ω for strict. |
-| Exponential comparisons                        | Check limits/ratios: 2ⁿ⁺¹ = Θ(2ⁿ); 2²ⁿ is ω(2ⁿ). |
-| Set relations o(g) and ω(g)                   | Disjoint by definition; no function can be both o(g) and ω(g). |
-| Multivariate Θ(g(n,m))                        | Tight bound up to constant on both n and m simultaneously. |
-| Simple asymptotic algebra                     | αn + (1−α)n = n; if f(n) ∈ o(n) then n+f(n) = n·(1+o(1)). |
-| Log preserves Θ (additive constants)          | log(n+c) = Θ(log n); additive constants don’t change order. |
-| Factorials of logs (poly-bounded?)            | ⌈log n⌉! is **not** poly-bounded; ⌈log log n⌉! **is** poly-bounded (grows subpolynomially). |
-| Master Theorem parameters                     | Example: T(n)=4T(n/2)+Θ(n²): a=4, b=2, n^{log_b a}=n² ⇒ Case 2. |
-| Merge-sort recurrence                          | T(n)=2T(n/2)+n; critical exponent d=log_b a=log₂2=1. |
-| D&C template                                  | DnC: split → recurse → combine; Master form T(n)=a·T(n/b)+f(n). |
 
 
 ---
@@ -726,16 +676,6 @@ Quiz: [Algorithms and Data Structures – Part 5](https://dev-quizmachine.itauto
 - [Lecture 4 – Rangering i lineær tid](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-4---rangering-i-line%C3%A6r-tid)
 - [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer)
 
-| Topic                     | Brief description |
-|--------------------------------------|-------------------|
-| Asymptotic relations                 | Use O/Ω/Θ and little-o/ω via limits/ratios (e.g., 2ⁿ vs 2^{n/2} ⇒ ω). Rank Θ(1)…Θ(nⁿ) fastest→slowest. |
-| Tight bounds from mixes              | Combine Θ/O/Ω/o terms; keep the dominant order: e.g., Θ(n⁴)+O(n³log n)+o(n⁴) ⇒ Θ(n⁴); Θ(n)+O(n²)+Ω(n²) ⇒ Θ(n²). |
-| Divide-and-conquer sorting           | Identify binary search, merge sort, quicksort from code; master idea: split → solve → combine. |
-| Linear-time sorting                  | Counting, radix, bucket: when keys are bounded/base-k digits or uniform in [0,1). Stability where relevant. |
-| Quicksort pivots & effects           | First/last can hit Θ(n²) on sorted data; randomized and median-of-three keep expected Θ(n log n); median-of-medians gives deterministic linear-time selection and balanced partitions. |
-| Sorting properties table             | Fill best/avg/worst/memory for merge/quick/bubble/insertion/selection; recall stability and space needs. |
-| Heaps vs BST (contrast touchpoint)   | Heaps not ordered for search; BST inorder gives sorted order. |
-| Rooted-tree representations          | Left-child/right-sibling (LCRS) uses two pointers (left, right-sib) to encode arbitrary-arity trees. |
 
 
 ---
@@ -751,24 +691,6 @@ Quiz: [Algorithms and Data Structures – Part 6](https://dev-quizmachine.itauto
 - [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer) ← **highest focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
 
-| Topic                  | Brief description |
-|-----------------------------------|-------------------|
-| Free trees → rooted trees         | Add a designated root; defines parent/child, depth, height, subtrees. |
-| Complete binary trees             | Height ≈ ⌊log₂ n⌋; nearly filled levels enable array representation. |
-| Array representation of heaps     | Parent/children indices; sift-up / sift-down mechanics. |
-| Max-heap invariant vs property    | Invariant: parent key ≥ children; property: structure is complete. |
-| BUILD-MAX-HEAP & MAX-HEAPIFY      | Linear-time build; heapify runs in O(log n) worst case. |
-| Heaps vs BSTs                     | Heap supports fast **find-max**; BST supports fast **search by key** and sorted traversal. |
-| Random BST height & balanced BSTs | Expected height for random inserts ~ O(log n); self-balancing families guarantee Θ(log n). |
-| Heap operations & top-k           | INSERT / EXTRACT-MAX are Θ(log n); k-largest via heap in O(k log n) (ignoring output listing). |
-| Left-child/right-sibling (LCRS)   | Tree encoding with two pointers per node to represent general trees. |
-| Buckets & O(1) queries/updates    | Constant-size key universe (or bounded range) enables O(1) updates and “top-k” by scans. |
-| Inorder on BST                    | Prints keys in sorted order in Θ(n). |
-| Heapsort (first iteration idea)   | Swap root with last, shrink heap, sift-down to restore heap order. |
-| Prim’s PQ initialization          | BUILD-MIN-HEAP (linear) vs repeated inserts (O(n log n)); overall Prim is O(E log V). |
-| Spanning trees (overview)         | Definitions, how to find them (MST by Kruskal/Prim); relation to graph connectivity. |
-| Algorithmic decomposition         | Steps vs subproblems: divide-and-conquer, dynamic programming, greedy; role of induction and reductions in proofs. |
-| Selection-sort with BST?          | Pros/cons of replacing scans with structures; better: use heap or proven sorting algorithms. |
 
 ---
 
@@ -784,26 +706,6 @@ Quiz: [Algorithms and Data Structures – Part 7](https://dev-quizmachine.itauto
 - [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic                     | Brief description |
-|--------------------------------------|-------------------|
-| Why DP beats plain D&C               | Reuses overlapping subproblems to avoid exponential recomputation. |
-| DP prerequisites                     | Optimal substructure + overlapping subproblems; bounded state space. |
-| Optimal substructure                 | An optimal whole can be built from optimal subsolutions. |
-| Overlapping subproblems              | Many subinstances repeat; memo/tabulation pays off. |
-| DP design order                      | 1) Define state  2) Write recurrence  3) Choose top-down or bottom-up  4) Init base cases  5) Reconstruct solution (if needed). |
-| Subproblem graph                     | Nodes = states; edges = dependencies used by the recurrence. |
-| DP time drivers                      | Roughly (#states) × (work per transition). |
-| Rod-cutting basics                   | Count of ways grows exponentially; naive recursion is exponential; memoized or bottom-up runs in near n². |
-| Memoized vs bottom-up Cut-Rod       | Top-down with cache vs tabulation; both polynomial; bottom-up eases space tweaks; top-down explores only reachable states. |
-| Reconstruction arrays                | Keep choice array (e.g., first cut) to recover the actual solution. |
-| LCS state & recurrence               | State (i,j); if xᵢ = yⱼ then 1 + LCS(i−1,j−1), else max(LCS(i−1,j), LCS(i,j−1)). |
-| 0/1 Knapsack DP                     | Time Θ(n·W); pseudo-polynomial (not poly in input length). |
-| Playlist exact-t (hardness)          | Reduce from subset-sum/partition to argue NP-hardness. |
-| Playlist exact-t (solutions)         | DP over time (reachability), or bitset convolution; also backtrack with pruning for small n. |
-| Odd cycle in directed/undirected     | Use BFS levels (undirected) or parity tracking/DFS to detect odd cycles; or reduce to bipartite test. |
-| Floyd–Warshall variants              | m-shortest lengths: keep m candidates per (i,j). Transitive closure counts: replace boolean OR/AND with integer sum/product. |
-| Output recovery is “not trivial”     | Requires storing choices/parents; without it you only get the score. |
-| Shortest path with most edges        | Layer DAG of equal-distance edges from s; within shortest-path DAG maximize edges via DP. |
 
   
 ---
@@ -820,17 +722,6 @@ Quiz: [Algorithms and Data Structures – Part 8](https://dev-quizmachine.itauto
 - [Lecture 4 – Rangering i lineær tid](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-4---rangering-i-line%C3%A6r-tid)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic                             | Brief description |
-|------------------------------------|-------------------|
-| Order-of-growth ranking            | Place Θ(1)…Θ(nⁿ) from fastest to slowest; compare by dominant term. |
-| Asymptotic comparison              | Use O/Ω/Θ and little-o/ω to relate two functions via limits/ratios. |
-| Master theorem (template)          | Recurrences of the form T(n) = a·T(n/b) + f(n); know the three main cases. |
-| Combining bounds                   | Read best/worst from mixed Ω/Θ/O expressions; identify the tight term. |
-| Algebra on asymptotics             | Simplify sums like Θ(n²) + O(log n) to a single tight bound. |
-| Sorting (comparison-based)         | Quicksort vs mergesort: properties, “sorting work,” PARTITION and MERGE roles. |
-| K-Largest runtime idea             | Keep top-k while scanning; understand O(n·k) buffer vs O(n log k) heap. |
-| Reductions (X ≤ₚ Y)                | Basics of polynomial-time reductions and what they imply. |
-| Linear programming mini-case       | Objective and constraints formulation; interpret a small 2-variable LP. |
 
                                                                                                                       
 ---
@@ -941,23 +832,6 @@ Quiz: [Algorithms and Data Structures – Part 12](https://dev-quizmachine.itaut
 **Covers & focus**
 - [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer) ← **highest focus**
 
-| Topic                        | Brief description |
-|-----------------------------------------|-------------------|
-| Adjacency list vs matrix                | Space: lists Θ(n+m), matrix Θ(n²). Edge-exists check: list Θ(deg(u)), matrix Θ(1). |
-| Reading adjacency lists                 | Map lists to edges; be careful with direction and duplicates/self-loops. |
-| Neighbor matrix (adjacency matrix)      | Build n×n matrix M with M[i,j]=1 if edge i→j else 0. |
-| BFS mechanics                           | Uses a **queue**; discovers in layers; shortest paths in unweighted graphs; time Θ(n+m). |
-| DFS mechanics                           | Uses a **stack** (implicit recursion/explicit stack); timestamps, parent forest; time Θ(n+m). |
-| “BFS with a stack?”                     | Switching to a stack turns it into **DFS** (changes order and layer guarantees). |
-| Topological sorting                     | For DAGs only; via DFS postorder (reverse finish time) or Kahn’s algorithm (in-degree queue). |
-| Sliding-tile puzzle (fewest moves)      | Unweighted moves ⇒ **BFS** yields fewest moves; for large spaces use A* with admissible heuristic. |
-| Course prerequisites ordering           | Model as DAG; produce order via **topological sort**. |
-| O(1) ancestor queries in a tree         | Do one **DFS**; store entry/exit times (Euler/in-out). A is ancestor of B iff tin[A] ≤ tin[B] ≤ tout[A]. Build Θ(n), space Θ(n). |
-| BFS facts                               | Layered discovery, computes shortest-path tree from source, queue discipline, colors/levels/parents. |
-| DFS facts                               | Discovery/finish times, tree/forward/back/cross edges; cycle detection; topo order from finish times. |
-| Strongly connected components (SCC)     | Use **Kosaraju/Sharir** (DFS order + transpose) or **Tarjan** (lowlink). |
-| SCC counts bounds                       | In a directed graph: min 1 (if strongly connected), max n (if no edges or acyclic singletons). With m ≥ n and arbitrary digraphs, still between 1 and n. |
-| Edge classification                      | Tree edges from DFS tree; in DAGs: tree, forward, cross (no back edges); in trees: only tree edges. |
 
 ---
 
@@ -1478,18 +1352,6 @@ Quiz: [Information Systems – Part 5 - v2](https://dev-quizmachine.itautomasjon
 
 Lesson: **TDT4175 – Information Systems (Lesson 5)**
 
-| Topic             | Brief description |
-|-------------------------------|-------------------|
-| SEQUAL – semiotic quality     | The seven-layer view of model quality and the idea of fit-for-purpose across layers. |
-| Value orientation             | Modeling with stakeholder value in mind (outcomes over tasks). |
-| Lean value-stream thinking    | Flow, waste reduction, and continuous improvement via value-stream focus. |
-| Modeling goals & uses         | Why we model: understanding, communication, analysis, compliance, and deployment. |
-| Conceptual modeling           | Core domain modeling perspectives and relationships. |
-| Meta-modeling (M3→M0)         | Levels from meta-metamodel to runtime instances; language vs. model. |
-| Coordination styles           | Organizational patterns for aligning or differentiating processes. |
-| Value dimensions              | Time, quality, cost, flexibility, resource use, side effects, and compliance. |
-| Enterprise architecture (EA)  | Portfolio and layered viewpoints linking business, applications, and technology. |
-| Ways of working               | How agile/DevOps and architecture practices complement modeling and analysis. |
 
 ---
 
@@ -1502,18 +1364,6 @@ Quiz: [Information Systems – Part 6 - v2](https://dev-quizmachine.itautomasjon
 
 Lesson: **TDT4175 – Information Systems (Lesson 6)**
 
-| Topic                             | Brief description |
-|-----------------------------------|-------------------|
-| Operational core systems          | How organizations record and run day-to-day activities using TPS and integrated suites. |
-| ERP integration                    | Enterprise-wide process and data integration across functions to reduce silos and improve data quality. |
-| Supply chain planning              | Coordinating sourcing-to-delivery; aligning demand and capacity; time-phased component planning. |
-| Customer relationship management  | Managing customer data and interactions across marketing, sales, and service. |
-| Digital channels                   | E-commerce, mobile, and social interactions tied to back-office processes and data. |
-| Public-sector digital services     | E-government interactions between citizens, businesses, and agencies. |
-| Decision support layers            | From routine managerial reporting (MIS) to exploratory/what-if analysis (DSS), team support (GSS), and executive overviews (ESS). |
-| KPIs and dashboards                | Periodic, structured performance views by function to monitor and steer operations. |
-| Data-to-decision flow              | Turning operational data into insights for tactical and strategic decision-making. |
-| Cross-cutting concerns             | Trust, privacy, security, payments, logistics/returns, and change management during adoption. |
 
 
 ---
@@ -1527,17 +1377,6 @@ Quiz: [Information Systems – Part 7 - v2](https://dev-quizmachine.itautomasjon
 
 Lesson: **TDT4175 – Information Systems (Lesson 7)**
 
-| Topic                             | Brief description |
-|-----------------------------------|-------------------|
-| Enterprise integration (ERP)      | Unifies siloed operational data (sales, inventory, finance, HR, etc.) into a single, consistent platform for cross-functional insight. |
-| Programmed vs. non-programmed     | Distinguishes routine, rules-based choices from novel, uncertain decisions requiring judgment and exploration. |
-| Decision Support Systems (DSS)    | Tools for ad-hoc analysis: what-if, goal-seeking, sensitivity, simulation; supports semi-structured decisions. |
-| Management Information Systems    | Periodic dashboards and KPIs for monitoring, exception spotting, and operational control by middle management. |
-| Executive Support Systems (ESS)   | High-level, external-aware views with drill-down for strategy, uncertainty, and exception handling at the top level. |
-| Knowledge types & management      | Explicit vs. tacit knowledge; practices and systems to capture, store, share, and apply organizational know-how (KMS). |
-| Expert systems & rule engines     | Codify domain expertise (knowledge base + inference) to assist non-experts with recommendations/explanations. |
-| Data→Insight pipeline             | Flow from operational capture to integrated data, reporting, analysis, and executive insight for better decisions. |
-| Tool–decision fit                 | Match system to decision type: MIS (structured), DSS (semi-structured), ESS (strategic), KMS/ES (expertise leverage). |
 
 
 ---
@@ -1551,20 +1390,6 @@ Quiz: [Information Systems – Part 8 - v2](https://dev-quizmachine.itautomasjon
 
 Lesson: **TDT4175 – Information Systems (Lesson 8)**
 
-| Topic                   | Brief description |
-|------------------------------------|-------------------|
-| Knowledge types                     | **Tacit** (experience, intuition) vs **Explicit** (documents, FAQs, DBs); convert and share to scale know-how. |
-| KM foundations                      | People–process–tech: organize **create → store → share → apply**; use portals, intranets, search, repositories. |
-| Knowledge maps/directories          | “Who knows what” and where to find it; speed up discovery and reuse. |
-| Expert systems (as specialized IS)  | Components: **knowledge base**, **inference engine** (forward/backward chaining), **explanation facility**, **acquisition tools**. |
-| Inference & explanation             | Engine applies rules to facts to derive conclusions; explanation shows **why/how** to build trust and learning. |
-| Handling uncertainty                | Techniques like fuzzy rules or confidence factors when knowledge is imprecise. |
-| Immersive tech (VR/AR)              | Training, simulation, visualization where “seeing/doing” transfers knowledge faster than reading. |
-| Pervasive/mobile computing          | Devices everywhere (phones, wearables, sensors) + always-on networks → real-time data capture and field enablement. |
-| Mobile workforce enablement         | Sync from the field; faster cycle times, fewer errors, better customer service at point-of-need. |
-| CSCW & remote collaboration         | Chat, shared docs, video stand-ups, task boards → richer coordination, transparency, and quicker decisions. |
-| Business impact                     | **Reach & speed**, **cost & accuracy**, **service & personalization** from embedded knowledge and connectivity. |
-| Risks & design considerations       | Security/privacy, device sprawl, data quality, human-factors for small screens/in-motion contexts. |
 
 ---
 
