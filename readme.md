@@ -594,6 +594,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 - [TDT4120 - Lecture 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5) ✅ Open
 - [TDT4120 - Lecture 5 Code](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5code) ✅ Open
 - [TDT4120 - Lecture 5 Tree Invariants](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tree-invariants-and-properties) ✅ Open
+- [TDT4120 - Lecture 6 – Dynamic Programming](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson6dynamicprogramming) ✅ Open
 - [TDT4120 - Lecture 7 – Greediness](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson7greedyness) ✅ Open
 - [TDT4120 - Lecture 8 – Graph Traversal](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson8graphtraversal) ✅ Open
 
