@@ -739,23 +739,6 @@ Quiz: [Algorithms and Data Structures – Part 9](https://dev-quizmachine.itauto
 - [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic                            | Key results & reminders (condensed) |
-|-----------------------------------|-------------------------------------|
-| Invertible growth rates           | Solve f(n) ≤ T for Θ(1), Θ(log n), Θ(n), Θ(nᵏ) (fast k). Θ(cⁿ) via n ≈ log_c T. Not practical: Θ(n log n) (Lambert-W), Θ(n!), Θ(nⁿ). |
-| Θ-notation simplification         | n³/1000 + 100n² − 100n + 3 = Θ(n³). Keep highest order; drop constants. |
-| Master Theorem (form)             | T(n) = a·T(n/b) + f(n). Know cases 1–3 + regularity; compare f(n) with n^{log_b a}. |
-| Complexity ranking (desc.)        | Θ(n!) ≻ Θ(kⁿ) (k>1) ≻ Θ(nᵏ) (k>1) ≻ Θ(n log n) ≻ Θ(n) ≻ Θ(log n) ≻ Θ(1). |
-| Tight notation                    | Θ(·) gives both upper and lower bounds (tight). |
-| Simplify mixed bounds             | Θ(n²)+O(n⁴)+Ω(log n) → Θ(n²).  Θ(n²)+O(n³)+Ω(n) → Θ(n²). |
-| When to use DP                    | Optimal substructure + overlapping subproblems + håndterbar tilstandsrom. |
-| Optimal substructure              | Optimal helhet bygges av optimale del-løsninger (rod cutting, korteste vei i DAG). |
-| Rod cutting r₇ (p = ⟨1,4,3,6,8,5,9⟩) | Gratis kutt: r₇ = 13.  Med kuttekost k=2: r₇ = 10. |
-| Grid paths (uten/med blokker)     | Uten blokker: fᵢⱼ = C((i−1)+(j−1), i−1); f₂,₃ = 3.  Med blokker: fᵢⱼ = fᵢ₋₁,ⱼ + fᵢ,ⱼ₋₁; blokker → 0; base f₁,₁ = 1. |
-| Segmentering av sekvens (DP)      | Del A i sammenhengende segmenter med summer i B → naturlig prefiks-DP (overlap + optimalitet). |
-| Lengste vei                       | Generell graf: lengste enkle vei er NP-hard.  I DAG: topo-rekkefølge + DP → Θ(V+E). |
-| Memo vs bottom-up (DP)            | Memo (top-down) beregner kun nådde tilstander og passer sparsomme rom; kan gi stack-overflow. Bottom-up stabil, lett å plass-optimalisere. |
-| Top-down vs bottom-up (nåbarhet)  | Beregner kun nåbare: **memo (top-down)**.  Mer stack-sårbar: **memo (top-down)**.  Ved ~5 % nåbare: **memo** er ofte mest effektiv. |
-| Bounded vs 0/1 knapsack           | Bounded (vilkårlig k) subsumerer 0/1 → ingen generell algoritme som er asymptotisk raskere enn beste 0/1 for alle k. Reduksjon via binær-splitting. |
 
 
 ---
@@ -773,21 +756,6 @@ Quiz: [Algorithms and Data Structures – Part 9](https://dev-quizmachine.itauto
 
 Quiz: [Algorithms and Data Structures – Part 10](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat10) ✅ Open
 
-| Topic  | Key results & reminders (condensed) |
-|---|---|
-| **Master Theorem — template & cases** | Form: T(n) = a·T(n/b) + f(n). Know cases 1–3 + regularity; compare f(n) to n^(log_b a). |
-| **Complexity ranking (descending)** | Θ(n!) ≻ Θ(k^n) (k>1) ≻ Θ(n^k) (k>1) ≻ Θ(n log n) ≻ Θ(n) ≻ Θ(log n) ≻ Θ(1). |
-| **Heaps vs. Binary Search Trees (BST)** | **Heap:** nearly complete shape; parent ≥ children (max-heap). **BST:** in-order yields sorted keys; left < root < right. |
-| **Heapsort — properties** | In-place, Θ(n log n) worst-case time, not stable; build-heap then repeat extract-max + sift-down. |
-| **BST insertion order & shape** | Input order affects height: best Θ(log n) (balanced), worst Θ(n) (chain); impacts tree-sort runtime. |
-| **Tree-sort via BST (insert + inorder)** | Best Θ(n log n), average Θ(n log n), worst Θ(n²) (degenerate BST). |
-| **BST height bounds** | For n nodes: between Ω(log n) (balanced) and O(n) (path). Without balancing, only this range is safe. |
-| **Dictionary ADTs (lookup/insert/delete)** | **Hash table:** expected Θ(1) ops (uniform hashing), worst Θ(n). **Balanced BST:** Θ(log n) worst-case. **Unbalanced BST:** order-dependent. **Array:** unsorted Θ(n) find/delete; sorted has Θ(log n) find but Θ(n) insert/delete. |
-| **Heap order & relations** | In a max-heap, for node x with children y, z: key(x) ≥ key(y) and key(x) ≥ key(z). |
-| **BST minimum** | Follow left child from root until null; last visited node is the minimum. |
-| **Stack via max-heap trick** | Use increasing timestamp as heap key. push: insert (ts, value). pop: extract-max. |
-| **Array-as-heap view** | 1-based indexing: children at 2i and 2i+1. 0-based indexing: children at 2i+1 and 2i+2. Heapsort step: swap root with last, shrink heap, sift-down. |
-| **Heap vs. BST — central properties** | **Heap:** prioritization (fast find-max), not ordered for key search. **BST:** ordered for fast search and sorted traversal. |
 
 ---
 
@@ -805,21 +773,6 @@ Quiz: [Algorithms and Data Structures – Part 11](https://dev-quizmachine.itaut
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
 - [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 
-| Topic                      | Key results & reminders (condensed) |
-|---------------------------------------|-------------------------------------|
-| Complexity ranking (desc.)            | Θ(n!) ≻ Θ(kⁿ) (k>1) ≻ Θ(nᵏ) (k>1) ≻ Θ(n log n) ≻ Θ(n) ≻ Θ(log n) ≻ Θ(1). |
-| DP suitability                         | Needs **optimal substructure** + **overlapping subproblems** and a manageable state space. |
-| Greedy-choice property                 | A globally optimal solution can be built by repeatedly making a **locally** optimal choice. |
-| Greedy-solvable examples               | Activity selection (by earliest finish), Huffman coding (merge two lightest), Kruskal (safe light edges across cuts). |
-| Weighted interval scheduling           | Requires DP; plain activity-selection greedy is **not** optimal with weights. |
-| Activity selection (second pick)       | Recursive/iterative CLRS variant: after picking the earliest finishing activity, always pick the next that **starts after** the last finish; ties broken by earliest finish. |
-| Huffman coding facts                   | Prefix-free, optimal among symbol-by-symbol prefix codes; total cost = Σ (freq × depth). |
-| Huffman length computation             | Build the tree (merge two minimum weights repeatedly); sum frequency × codeword length. |
-| Kruskal’s runtime                      | Sort edges O(E log E) + union-find almost-constant amortized ⇒ **O(E log E)**. |
-| Safe edge (Generic-MST)                | If A ⊆ some MST and (S, V−S) is a cut **that respects A**, the **lightest** edge crossing it is **safe** to add to A. |
-| Optimal merge of k lists               | Always merge the two **shortest** lists first (Huffman strategy) to minimize total work. |
-| Shortest paths: Dijkstra vs B-Ford     | Dijkstra (greedy) for non-negative weights; Bellman–Ford handles negatives and detects negative cycles. |
-| Huffman codeword lengths (bounds)      | For n ≥ 1 symbols: min length = 1 bit (if n=1, often 1 by convention), max length ≤ n−1 (in a chain). |
 
 ---
 
@@ -845,19 +798,6 @@ Quiz: [Algorithms and Data Structures – Part 13](https://dev-quizmachine.itaut
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← **highest focus**
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
 
-| Topic                            | Key results & reminders (condensed) |
-|---------------------------------------------|-------------------------------------|
-| Disjoint-set forests (union–find)           | `MAKE-SET`, `FIND-SET`, `UNION`. With **path compression** + **union by rank/size** ⇒ near-constant amortized time \(α(n)\). Trees are conceptual; parent pointers form shallow forests. |
-| All edges equal weight                       | **Any** spanning tree is minimum. #MSTs = #spanning trees of the graph (can be many). |
-| Unique lightest edge                         | If an edge is **strictly** lighter than all others, it is in **every** MST (cut property). |
-| Unique heaviest edge                         | Not necessarily excluded. If it lies on **any cycle**, the **cycle property** forbids it; if it’s a **bridge** (cut edge), it **must** be in the MST despite being heaviest. |
-| Remove one MST edge                          | An MST minus one edge splits into two components; the remaining edges are **MSTs** for their respective vertex sets (with original weights). |
-| “Prim with max-priority queue”               | Plainly flipping to a **max-heap** yields a **maximum** spanning tree only if the update rule mirrors Prim’s (choose heaviest safe edge). Otherwise, it’s not guaranteed minimal. |
-| Wrong D&C idea for MST                       | “MST of left + MST of right + lightest cross edge” is **not** always optimal; local MSTs don’t compose across cuts. |
-| Safe edge via cut property                   | If set \(A\) is a subset of some MST and a cut \((S, V\!\setminus\!S)\) **respects \(A\)** (no edges of \(A\) cross it), then the **lightest** edge crossing that cut is **safe** to add to \(A\). |
-| “Respects A” (extra requirement)             | The chosen cut must **not** be crossed by any edge already in \(A\); otherwise the cut property doesn’t apply. |
-| Kruskal runtime                              | Sort edges: \(O(E \log E)\). Union–find ops: \(O(E\,α(V))\). Net: **\(O(E \log E)\)**. |
-| Edge classification & SCC (context)          | (For reference) Trees vs DAGs influence edge types; MST questions rely on cuts/cycles, not SCCs. |
 
 ---
 
@@ -871,18 +811,6 @@ Quiz: [Algorithms and Data Structures – Part 14](https://dev-quizmachine.itaut
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **Highest focus**
 - [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 
-| Topic                          | Key results & reminders (condensed) |
-|-------------------------------------------|-------------------------------------|
-| SSSP basics                               | Distances init: \(d[s]=0\), others \(∞\). Relax updates \(d[v]\) and \(π[v]\). |
-| Relax operation                           | If \(d[v] > d[u] + w(u,v)\) then set \(d[v] ← d[u]+w(u,v)\), \(π[v] ← u\). |
-| Path optimality subpaths                  | Any subpath of a shortest path is itself shortest. |
-| DAG-Shortest-Paths                        | Topologisk rekkefølge; works with negative edges if no cycles; time \(Θ(V+E)\). |
-| Dijkstra                                  | Non-negative edges; with binary heap \(Θ((V+E)\log V)\); with Fibonacci heap \(Θ(E + V\log V)\). |
-| Fibonacci-heap advantage                  | **Decrease-key** amortized \(O(1)\) (vs \(Θ(\log n)\) in binary heap). |
-| Queue discipline (BFS vs PQ)              | BFS uses **FIFO** (layered order in unweighted graphs). Dijkstra uses **min-PQ** by current distance. |
-| Entering the queue/PQ                     | Standard SSSP pushes node when first discovered; further relaxations may **decrease-key**. |
-| Negative edges & cycles                   | Dijkstra invalid with negative edges; New-SSSP must match Bellman–Ford guarantees. Negative cycles ⇒ “no finite shortest path.” |
-| Prim init aside (tie-in)                  | Building PQ: **BUILD-HEAP** is linear; repeated inserts \(Θ(V\log V)\). |
 
 ---
 
@@ -897,19 +825,6 @@ Quiz: [Algorithms and Data Structures – Part 15](https://dev-quizmachine.itaut
 - [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle) ← **highest focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
 
-| Topic                                | Key results & reminders (condensed) |
-|--------------------------------------------------|-------------------------------------|
-| APSP via repeated single-source runs             | Run Dijkstra from every node when all weights ≥ 0. With binary heap: Θ(V·(E log V)). With Fibonacci heap: Θ(V·E + V² log V). |
-| APSP pick-one fastest                            | On sparse graphs with non-negative weights, repeated Dijkstra is typically faster; on dense graphs, Floyd–Warshall Θ(V³) wins. |
-| Floyd–Warshall (FW)                              | Dynamic programming over intermediate vertices. Time Θ(V³), space Θ(V²). Handles negative edges; detects negative cycles (Dᵢᵢ < 0). |
-| Predecessor matrix π                             | πᵢⱼ stores the predecessor of j on a shortest i→j path (NIL means no path or i=j with no predecessor). Reconstruct by walking predecessors. |
-| FW space-lean variant                            | Store only distance matrix (optionally a compact π or “next” matrix). Practical version often uses O(V²) space. |
-| Transitive closure (reachability)                | Boolean FW: Tᵏᵢⱼ = Tᵏ⁻¹ᵢⱼ ∨ (Tᵏ⁻¹ᵢᵏ ∧ Tᵏ⁻¹ᵏⱼ). Replace min/+ with OR/AND. |
-| Kruskal runtime refresher                        | Sort edges O(E log E) + union-find ≈ O(E α(V)) ⇒ O(E log E). |
-| Shortest-path tree vs MST                        | To minimize ∑ᵤ dist_T(v, u) from root v, build the **shortest-path tree** (run Dijkstra from v). An MST minimizes sum of edge weights, not distances from v. |
-| Dijkstra’s selection rule                        | Always extract the unseen node with **minimum tentative distance**. Decrease-key on relaxations. |
-| All-pairs correctness notes                      | Subpaths of shortest paths are shortest; negative cycles ⇒ no finite APSP; FW reveals this on diagonal. |
-| Schulze method (pairwise paths)                  | Treats candidates as a weighted directed graph and computes strongest paths; conceptually similar to APSP but with max-min path strengths instead of sums. |
 
 ---
 
@@ -923,20 +838,6 @@ Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itaut
 - [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt) ← **Highest focus**
 - [Lecture 11 – Korteste vei fra alle til alle / Transitiv lukning (Warshall)](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 
-| Topic                                            | Key results & reminders (condensed) |
-|--------------------------------------------------|-------------------------------------|
-| Augmenting paths & residual networks             | Use **BFS** (Edmonds–Karp) to find shortest (by edges) augmenting path in the **residual graph**; augment by the path bottleneck. |
-| Residual capacity & edge labels                  | Residual \(c^f(u,v)=c(u,v)-f(u,v)\); reverse edge has capacity \(f(u,v)\). Label “\(a/b\)” means flow \(a\) of capacity \(b\) on \(u\!\to\!v\). |
-| Ford–Fulkerson vs Edmonds–Karp                   | F–F is **pseudo-polynomial** (depends on capacities); E–K picks BFS paths ⇒ **\(O(VE^2)\)** worst-case and guarantees polynomial time. |
-| Max-flow value & min s–t cut                     | Flow value equals capacity of some **minimum cut** (Max-Flow Min-Cut). Identify min cut by reachable set after final residual BFS. |
-| Modeling with super source/sink                  | To handle multiple sources/sinks or per-node supply limits: add **super-source** with edges to sources (cap=production), **super-sink** from sinks (cap=demand). |
-| Matchings & unit capacities                      | In unit-capacity digraphs, max \(s\!\to\!t\) flow equals max number of **edge-disjoint paths**; bipartite matching reduces to max-flow. |
-| Filename shortening without collisions           | Build bipartite graph: files ↔ candidate abbreviations; edges if abbreviation is valid/meaningful; find **maximum matching** for unique names. |
-| Parity facts                                     | All capacities even ⇒ any max-flow value is **even**. With odd capacities, max-flow can be **odd or even** (no parity guarantee). |
-| Edmonds–Karp proof idea                          | Each augmentation increases some shortest-path distance; edges become “saturated forward/unsaturated back” only \(O(EV)\) times ⇒ \(O(VE^2)\). |
-| Specialized constructions                        | “Researcher→task→project” with node/edge capacities models multi-capacity assignment; feasibility via max-flow equals required totals. |
-| Circulation with lower bounds                    | Reduce to max-flow: set residual capacities to \(c'(u,v)=c(u,v)-b(u,v)\), compute node **demands** \(d(v)=\sum b(in)-\sum b(out)\), connect super-source to \(v\) with \(d(v)>0\) and \(v\) to super-sink for \(d(v)<0\); feasible iff max-flow saturates all demand edges. |
-| Warshall / Transitiv lukning                     | Boolean DP: \(T^{(k)}_{ij}=T^{(k-1)}_{ij}\ \lor\ (T^{(k-1)}_{ik}\land T^{(k-1)}_{kj})\). “Apply step for vertex 4” = add edges implied via node 4 as intermediate. |
 
 
 ---
@@ -1406,21 +1307,6 @@ Quiz: [TDT4175 Information Systems – Exam 2024](https://dev-quizmachine.itauto
 - Lesson 8 — KM, expert systems, pervasive/mobile & collaboration tools  
 **Highest focus:** Lessons 6–7 (systems landscape and decision support around the Amazon flow)
 
-| Topic (overordnet) | Key results & reminders (condensed) |
-|---|---|
-| BPMN participants (pools) vs roles (lanes) | Pools = external participants/organizations (Amazon, Credit Card Company, Carrier, Customer). Lanes = roles inside a pool (e.g., Amazon: Picker, Packager, Warehouse Ops, Payment Service). Avoid mixing external actors as lanes inside another pool. |
-| Syntactic vs semantic mistakes in BPMN | **Syntactic:** invalid connectors, missing start/end, message flow within a pool, sequence flow crossing pools, wrong gateway/event types. **Semantic:** wrong responsibility (task in wrong pool), impossible path logic, missing decisions (e.g., approved/declined), misordered steps vs real process. |
-| Appropriate lanes in Amazon pool | Examples: Web/App Frontend, Payment Service (Amazon side), Warehouse (Picking, Packing), Shipping Desk, Customer Service. Customer, Card Company, Carrier should be separate pools. |
-| Credit-card participant systems | Payment gateway/processor, authorization & clearing, **Fraud Detection System (FDS)**, risk scoring, settlement/GL interfaces, PCI-DSS compliant TPS. |
-| Amazon fulfillment systems | **WMS** (picking/binning/packing), **ERP** (orders/inventory/finance), barcode/RFID, **TMS** handoff, label & carrier integration. |
-| Carrier systems | **TMS**, route planning/telematics, scan events (pickup, in-transit, delivered), EDI/API with Amazon. |
-| Fraud Detection System placement | Primarily Credit Card Company (card-not-present risk), also useful on Amazon checkout to pre-screen transactions; goal is reduce chargebacks and false positives with minimal friction. |
-| Data → information → knowledge | Data: raw events (timestamp, SKU, auth code). Information: order status “Authorized/Declined,” pick list. Knowledge: fraud patterns, pick-path optimizations, exception handling rules. |
-| Information-quality dimensions | Accuracy, completeness, timeliness, consistency, integrity, reliability, security/privacy, traceability. Payments emphasize accuracy, timeliness, integrity, confidentiality. |
-| Real-time monitoring/reporting | From TPS/ERP/WMS streams into **BI/MIS dashboards**, streaming ETL, event hubs, alerts; DSS for ad-hoc drilldown; ESS for exec summaries. |
-| Nature of changes & innovation type | Warehouse robots/autonomous delivery = **process** and **technology** innovations; likely **radical** (discontinuous) → needs **business process re-engineering (BPR)** rather than small Kaizen tweaks. |
-| Why re-engineering here | New capabilities change flow, roles, metrics, and constraints end-to-end (layout, safety, SLAs, IT integrations). Incremental tweaks won’t realize benefits or address systemic coupling. |
-| E-commerce types (examples) | **B2B** (Amazon Business), **B2C** (amazon.com retail), **C2C** (Marketplace peer sellers), **C2B** (influencer/affiliate programs), **B2G** (selling to public sector), **G2C/G2B** (for public services, by analogy). |
 
 ### > TDT4175 Information Systems – Exam 2025 (Autumn, surgical-department case)
 ---
@@ -1436,20 +1322,6 @@ Quiz: [TDT4175 Information Systems – Exam 2025 (Autumn)](https://dev-quizmachi
 
 **Highest focus:** Connecting the surgical workflow to the appropriate information-system type and using reliable process data to improve capacity and patient safety.
 
-| Topic (overordnet) | Key results & reminders (condensed) |
-|---|---|
-| Process instance and scope | One instance represents one patient's surgical case/pathway: evaluation and planning through to an operation starting or being cancelled. Scope defines the start, end, and included work. |
-| BPMN model-quality categories | **Syntactic** errors violate BPMN rules (for example, invalid flow direction, event, or gateway use). **Semantic** errors misrepresent the real process (missing scheduling or exception paths). **Empirical** quality concerns whether the model is practically readable and usable. |
-| Typical surgical-process omissions | Model the patient-scheduling interaction and the outcomes where staff, equipment, operating-room capacity, or time is unavailable; make join/completion conditions and cancellation paths explicit. |
-| P-REC classification | An electronic patient-record system is primarily a clinical **TPS**: it records and retrieves routine patient and treatment transactions for clinical and administrative staff. It may also provide CRM-like patient-information functions. |
-| OP-PLANNER classification | A scheduling and re-scheduling system supports semi-structured resource-allocation decisions, so it is chiefly a **DSS**; its live operating-room view also supplies operational status information. |
-| Finding causes of waiting lists and unused rooms | Use **MIS/BI reporting** that integrates P-REC and OP-PLANNER data into KPIs and exception reports (wait time, cancellations, room utilisation, bottlenecks). Drill-down analysis can identify contributing patterns. |
-| Data → information → knowledge | **Data:** patient details, room/equipment records, timestamps. **Information:** an available room or a patient's current evaluation/schedule. **Knowledge:** applying these facts and clinical rules to plan a safe operation or improve the workflow. |
-| Process-mining event-log requirements | Events need a stable **case ID** (such as an operation number) to group each instance and complete **timestamps** including date and time to order events reliably. Process discovery uses such logs to reveal the executed process. |
-| Knowledge Management System (KMS) | A KMS supports creating/capturing, storing, organising, retrieving, and sharing organisational knowledge—especially converting valuable tacit experience into explicit, reusable guidance. |
-| KMS for surgical standardisation | Capture proven practices from teams; maintain approved protocols and guidelines; make them easy to retrieve at the point of care; and share controlled updates to reduce unsafe variation while preserving justified exceptions. |
-| SUSAF priorities | Consider individual and social effects first (patient safety, privacy, staff wellbeing and equitable care), plus technical reliability, economic capacity/cost effects, and environmental consequences of resource use. |
-| Evaluating proposed solutions | A **DSS** supports what-if analysis, simulation, and comparison of extra rooms, additional staff, or referral of selected surgeries. An executive system can present the resulting strategic summaries. |
 
 ### > TDT4175 Information Systems – Various Knowledge #1
 ---
@@ -1465,20 +1337,6 @@ Quiz: [TDT4175 Information Systems – Various Knowledge #1](https://dev-quizmac
 
 **Highest focus:** Be able to distinguish closely related concepts, then apply them to a practical hospital, recruitment, or service-process case.
 
-| Topic (overordnet) | Key results & reminders (condensed) |
-|---|---|
-| Data → information → knowledge | **Data** is raw, isolated fact (patient ID, diagnosis code, age). **Information** is organised data with context and meaning (a surgery schedule). **Knowledge** is applied understanding used to decide or act (clinical judgement about preparation or duration). |
-| BPMN-error categories | **Syntactic:** notation-rule violations, such as invalid symbols/connections or missing start/end events. **Semantic:** faulty workflow meaning/logic, such as missing activities, decisions, or valid paths. **Empirical:** the model does not adequately represent the real case, including omitted actors, constraints, or real-world work. |
-| SUSAF dimensions | **Individual:** physical and mental wellbeing. **Social:** communities, relationships, and social structures. **Environmental:** resource use and ecological footprint. **Economic:** financial viability and resource efficiency. **Technical:** long-term viability, maintainability, interoperability, and data preservation. |
-| TPS | **Transaction Processing System** — captures and updates daily operational transactions in real time, e.g. patient registration, diagnoses, medication, and test results. |
-| MIS | **Management Information System** — turns TPS data into regular, structured reports and KPIs for operational/middle managers, e.g. waiting-list and operating-room-utilisation reports. |
-| DSS | **Decision Support System** — interactive data, models, and simulations for semi-structured decisions, e.g. scheduling and re-scheduling operations using real-time room status. |
-| ESS | **Executive Support System** — high-level dashboards and strategic analysis for senior management; useful for comparing long-term scenarios such as capacity expansion, staffing, or outsourcing. |
-| KMS | **Knowledge Management System** — supports creation/capture, storage, organisation, retrieval, and sharing of organisational knowledge; it helps turn tacit expertise into explicit protocols. |
-| Pizza-order BPMN flow | Start: customer places order → kitchen checks inventory → **XOR** ingredients available? → Yes: prepare and bake → deliver → end. No: notify customer → cancel order → end. The XOR gateway is critical because exactly one outcome/path may be selected. |
-| Enterprise Architecture (EA) | A continuous, model-driven practice for aligning strategy, business processes, information systems, and technology infrastructure; it helps understand the organisation, guide change, and bridge business and IT. |
-| EA for digital recruitment | Map the current and target recruitment process, stakeholders, information/data flows, applications, integrations, and technology; use the models to identify gaps, sequence changes, and govern the transition. Benefits include alignment with recruitment goals, less duplication and better interoperability, clearer change impact/risk, and a shared basis for decisions. |
-| Google Scholar as a KMS | It supports knowledge discovery, retrieval, and sharing of explicit scholarly knowledge, so it can be described as a broad/public KMS. It is not a full organisation-specific KMS for capturing and managing an organisation’s internal tacit practices. |
 
 ### > TDT4175 Information Systems – Various Knowledge #2
 ---
@@ -1494,18 +1352,6 @@ Quiz: [TDT4175 Information Systems – Various Knowledge #2](http://dev-quizmach
 
 **Highest focus:** Explain system roles and data flow from operational transactions to managerial, analytical, and executive decisions.
 
-| Topic (overordnet) | Key results & reminders (condensed) |
-|---|---|
-| BPMN syntactical mistakes | Violations of BPMN notation rules: for example missing/invalid start or end events, incorrect sequence/message-flow use, invalid connections, or inappropriate gateway/event symbols. Identify at least three that are visible in the supplied model. |
-| BPMN semantical mistakes | A diagram can be syntactically valid but wrong in meaning: activities may be in the wrong participant/lane, steps may be missing or in the wrong order, or decision outcomes and exception paths may not reflect the real process. Identify at least two from the model. |
-| CBIS definition | A **Computer-Based Information System** is an integrated set of hardware, software, databases, telecommunications/networks, people, and procedures that collects, manipulates, stores, and processes data into information. |
-| CBIS and other IS types | CBIS is the umbrella concept. **TPS** captures operational transactions; **MIS** aggregates TPS data into routine management reports; **DSS** combines data with models for analysis of semi-structured decisions; **EIS/ESS** presents high-level internal and external information for strategic decisions. |
-| Typical hierarchy and data flow | Operational events enter **TPS** → integrated/aggregated data supports **MIS** reports and feeds **DSS** analysis → selected KPIs, trends, forecasts, and exceptions feed **EIS/ESS**. DSS can also draw directly on TPS/ERP data for current analysis. |
-| MIS definition and role | A **Management Information System** processes largely TPS-derived data into structured, periodic reports for middle managers, supporting tactical control, monitoring, and structured decisions. It is not merely a transaction recorder or an executive-only planning tool. |
-| Black-box pool in BPMN | A pool with no visible internal flow, used for an external participant whose process is unknown or out of scope. Only its boundary and message flows to/from it are shown. |
-| Black-box abstraction | In BPMN and system design, a black box exposes relevant inputs, outputs, and interfaces while hiding internal implementation. This reduces complexity, preserves boundaries/responsibility, and lets a process interact with an external TPS, MIS, CBIS, or organisation without modelling its internals. |
-| SCMS definition | A **Supply Chain Management System** manages the flow of goods, data, and finances across suppliers, manufacturing, distribution, and the end customer. |
-| SCMS with ERP, CRM, and TPS | **TPS** records operational events such as orders, receipts, shipments, and inventory movements. **ERP** integrates enterprise-wide finance, inventory, procurement, and order data. **SCMS** coordinates planning and execution across organisational boundaries using that data. **CRM** contributes customer demand, orders, service expectations, and delivery feedback. Together they form interoperating parts of the broader CBIS landscape. |
 
 ### > TDT4175 Information Systems – Various Knowledge #3
 ---
@@ -1521,20 +1367,6 @@ Quiz: [TDT4175 Information Systems – Various Knowledge #3](http://dev-quizmach
 
 **Highest focus:** Select and motivate the system that best supports an end-to-end organisational process, and distinguish concepts that have overlapping roles.
 
-| Topic (overordnet) | Key results & reminders (condensed) |
-|---|---|
-| Expense-reimbursement BPMN | Use at least Employee and Finance/Accounts-Payable participants/lanes. Typical flow: employee submits claim and receipts → finance checks completeness/policy → **XOR** valid/approved? → No: notify employee and request correction/reject → end; Yes: approve → record liability/process payment → notify employee → end. Model message flows across separate pools and exception paths explicitly. |
-| System for expense reimbursement | A financial **TPS**, commonly an expense-management or **ERP financial module** with workflow/approval support, records claims, validates them, routes approvals, updates accounts payable, and produces the payment/audit trail. |
-| PLM system components | **Product data management** stores product documents/specifications; **CAD/engineering integration** manages designs; **BOM and configuration management** controls product structures and variants; **change/workflow management** governs revisions and approvals; **project/collaboration** coordinates teams and suppliers; **quality/compliance and lifecycle/service data** support traceability from concept through retirement. |
-| CBIS hierarchy and data flow | **CBIS** is the umbrella of people, procedures, hardware, software, networks, and data. **TPS** records operational events → **MIS** produces routine aggregated reports → **DSS** applies data/models to semi-structured analysis → **EIS/ESS** presents strategic dashboards and trends. DSS and EIS/ESS may also draw on integrated ERP/data-warehouse sources. |
-| Lewin’s Change Model | **Unfreeze:** create readiness, explain why change is needed, and reduce resistance. **Change/Move:** introduce new processes, technology, skills, and behaviours with support and communication. **Refreeze:** embed the new way through policies, training, rewards, measurement, and ongoing reinforcement. |
-| Miles and Snow typology | **Prospector, Defender, Analyzer, Reactor.** Google best fits a **Prospector**: it continually seeks innovation, new products/markets, experimentation, and growth. Defenders emphasise stable existing markets; Analyzers balance stability with selective innovation; Reactors lack a consistent strategy. |
-| Information-quality characteristics | **Accessible** (available to authorised users), **accurate** (error-free), **complete** (all material facts), **economical** (benefit exceeds cost), **flexible** (usable for multiple purposes), **relevant** (matters to the decision), **reliable** (trustworthy source/collection), **secure** (protected from unauthorised access), **simple** (avoids overload), **timely** (available when needed), **verifiable** (can be checked). |
-| E-commerce types | **B2C, B2B, C2C, G2B,** and **G2C** are common participant-based classifications. **O2O** (online-to-offline) is also a recognised digital-commerce model; **F2F** is not an e-commerce type. |
-| Manufacturing-company digitalisation | An integrated **ERP** system is the core choice because it links inventory/materials, purchasing, production, finance, and sales. Integrate **CRM** capabilities for customer, sales, and marketing processes so the organisation gets shared data and end-to-end visibility. |
-| SaaS | **Software as a Service:** provider operates the full application and underlying platform/infrastructure; customer configures and uses it. Example: Microsoft 365 or Salesforce. |
-| PaaS | **Platform as a Service:** provider manages infrastructure, operating system, runtime, and platform services; customer deploys and manages its applications and data. Example: Azure App Service or Google App Engine. |
-| IaaS | **Infrastructure as a Service:** provider manages physical infrastructure and virtualisation; customer manages OS, runtime, applications, and data. Example: Azure Virtual Machines or Amazon EC2. |
 
 
 </details>
