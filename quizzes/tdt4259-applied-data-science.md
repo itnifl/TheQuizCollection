@@ -2,6 +2,8 @@
 
 [← All courses](../readme.md)
 
+> **Link types:** 📝 starts a quiz · 📖 opens reading material (lecture notes, course pages, external sites)
+
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://en.wikipedia.org/wiki/Python_(programming_language))
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://en.wikipedia.org/wiki/Scikit-learn)
 [![CRISP-DM](https://img.shields.io/badge/CRISP--DM-2E7D32?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
@@ -29,7 +31,7 @@
 
 *Based on Lecture 3: the CRISP-DM methodology, types of data analytics, one-pagers and design documents, business understanding, data understanding, data preparation, the Aneo grid-loss case study, and monitoring and maintenance.*
 
-**Quiz:** [Applied Data Science – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience3)
+📝 **Quiz:** [Applied Data Science – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience3)
 
 | Topic | Details |
 |---|---|
@@ -54,7 +56,7 @@
 
 *Based on Lecture 4: variables vs features, feature engineering, missing-value and low-variance filters, scaling and normalisation, PCA, supervised vs unsupervised learning, core algorithms (k-NN, SVM, trees, Naïve Bayes, neural nets), evaluation metrics and a leakage-free pipeline.*
 
-**Quiz:** [Applied Data Science – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4)
+📝 **Quiz:** [Applied Data Science – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4)
 
 | Topic | Details |
 |---|---|

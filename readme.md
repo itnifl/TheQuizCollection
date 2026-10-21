@@ -8,6 +8,8 @@ A curated collection of study quizzes, mostly for computer science courses at NT
 2. Click a quiz link to start.
 3. Read the explanation after each question, especially when you get it wrong.
 
+On the course pages, 📝 marks a link that starts a quiz and 📖 marks a link to reading material such as lecture notes or course pages.
+
 All quizzes are open. Links go to **QuizMachine** unless they are marked **FlexiQuiz**; a few quizzes are available on both platforms. QuizMachine can take a few seconds to load on the first visit while the server starts.
 
 ## Courses
@@ -117,6 +119,8 @@ All quizzes are open. Links go to **QuizMachine** unless they are marked **Flexi
 
 ## Author
 
+<div align="center">
+
 [![LeetCode](https://img.shields.io/badge/LeetCode-itnifl-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/itnifl/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-holm__atle-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/holm_atle)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Atle%20Holm-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atle-holm-85518861/)
@@ -124,3 +128,5 @@ All quizzes are open. Links go to **QuizMachine** unless they are marked **Flexi
 [![Codewars](https://www.codewars.com/users/itnifl/badges/large)](https://www.codewars.com/users/itnifl)
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/itnifl?theme=dark&font=Karma&ext=heatmap)](https://leetcode.com/u/itnifl/)
+
+</div>

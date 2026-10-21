@@ -2,6 +2,8 @@
 
 [← All courses](../readme.md)
 
+> **Link types:** 📝 starts a quiz · 📖 opens reading material (lecture notes, course pages, external sites)
+
 [![Information Systems](https://img.shields.io/badge/Information%20Systems-0072C6?style=for-the-badge&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4175)
 [![BPMN](https://img.shields.io/badge/BPMN-FF6F00?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)
 [![SEQUAL](https://img.shields.io/badge/SEQUAL-1565C0?style=for-the-badge&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4175)
@@ -33,7 +35,7 @@
 
 *Based on Lecture 1: IS types, ERP, strategy and process improvement, requirements and BPMN, and ethics.*
 
-**Quiz:** [Information Systems – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems1)
+📝 **Quiz:** [Information Systems – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems1)
 
 | Topic | Details |
 |---|---|
@@ -56,7 +58,7 @@
 
 *Based on Lecture 2: value chain, SCM/CRM, organisational structures, change and sourcing, BPR vs continuous improvement, diffusion and infusion, applications portfolio, alignment and strategy, evaluation and roles.*
 
-**Quiz:** [Information Systems – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems2)
+📝 **Quiz:** [Information Systems – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems2)
 
 | Topic | Details |
 |---|---|
@@ -85,7 +87,7 @@
 
 *Based on Lecture 3: process modelling goals, the SEQUAL framework, quality dimensions, modelling languages, methods and tools, the value framework, participatory techniques, BPMN evaluation and big data perspectives.*
 
-**Quiz:** [Information Systems – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems3)
+📝 **Quiz:** [Information Systems – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems3)
 
 | Topic | Details |
 |---|---|
@@ -116,7 +118,7 @@
 
 *Based on Lecture 4: BPMN Method and Style (chapters 1–6 of Bruce Silver's book), the Level 1 palette, the top-down modelling method, style rules for clarity and traceability, message flows and pools, end states, and practical modelling exercises.*
 
-**Quiz:** [Information Systems – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems4)
+📝 **Quiz:** [Information Systems – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems4)
 
 | Topic | Details |
 |---|---|
@@ -143,25 +145,25 @@
 
 *Based on Lecture 5: SEQUAL (semiotic quality), Lean value-stream thinking, conceptual and meta-modelling, coordination choices, and the enterprise architecture lens.*
 
-**Quiz:** [Information Systems – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems5) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems5)
+📝 **Quiz:** [Information Systems – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems5) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems5)
 
 ### Part 6 – Operational and decision-support systems
 
 *Based on Lecture 6: operational systems (TPS, ERP, SCM, CRM), digital channels, and decision-support layers (MIS, DSS, GSS, ESS).*
 
-**Quiz:** [Information Systems – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems6) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems6)
+📝 **Quiz:** [Information Systems – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems6) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems6)
 
 ### Part 7 – From operations to decisions
 
 *Based on Lecture 7: from integrated operations to managerial and executive decision support, knowledge management and expert systems.*
 
-**Quiz:** [Information Systems – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems7) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems7)
+📝 **Quiz:** [Information Systems – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems7) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems7)
 
 ### Part 8 – Knowledge management and collaboration
 
 *Based on Lecture 8: knowledge management (KM), expert and specialised IS, pervasive and mobile computing, and computer-supported cooperative work (CSCW).*
 
-**Quiz:** [Information Systems – Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems8) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems8)
+📝 **Quiz:** [Information Systems – Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems8) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/infosystems8)
 
 [↑ Back to top](#tdt4175-information-systems)
 
@@ -171,7 +173,7 @@
 
 *BPMN model quality (pools and lanes, syntax vs semantics), mapping roles to information systems, data–information–knowledge, information quality, analytics and monitoring, and change and innovation (BPR, e-commerce types).*
 
-**Quiz:** [Information Systems – Exam 2024](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2024quizversion)
+📝 **Quiz:** [Information Systems – Exam 2024](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2024quizversion)
 
 **Covers:**
 - Lecture 5 – SEQUAL, modelling goals and means, BPMN quality, Lean value-stream mapping
@@ -185,7 +187,7 @@
 
 *A hospital surgical-department case covering BPMN scope and model quality, operational and decision-support systems, data–information–knowledge, process mining, knowledge management, sustainability and what-if analysis.*
 
-**Quiz:** [Information Systems – Exam 2025 (autumn)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2025autumn)
+📝 **Quiz:** [Information Systems – Exam 2025 (autumn)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2025autumn)
 
 **Covers:**
 - Business process modelling – scope, process instances, and empirical, syntactic and semantic quality
@@ -202,7 +204,7 @@
 
 *Cross-topic practice on data–information–knowledge, BPMN model quality and gateways, SUSAF, information system types, enterprise architecture and knowledge management.*
 
-**Quiz:** [Information Systems – Various Knowledge #1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge1)
+📝 **Quiz:** [Information Systems – Various Knowledge #1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge1)
 
 **Covers:**
 - BPMN basics – notation, syntactic, semantic and empirical quality, and XOR decision flow
@@ -215,7 +217,7 @@
 
 *Practice on BPMN quality and black-box pools, computer-based information systems, the TPS–MIS–DSS–EIS hierarchy, and supply chain systems in the wider enterprise landscape.*
 
-**Quiz:** [Information Systems – Various Knowledge #2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge2)
+📝 **Quiz:** [Information Systems – Various Knowledge #2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge2)
 
 **Covers:**
 - BPMN syntax, semantics, participants and black-box abstraction
@@ -228,7 +230,7 @@
 
 *Practice on BPMN process design, PLM and ERP, the CBIS hierarchy, organisational strategy and change, information quality, e-commerce, and cloud service models.*
 
-**Quiz:** [Information Systems – Various Knowledge #3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge3)
+📝 **Quiz:** [Information Systems – Various Knowledge #3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge3)
 
 **Covers:**
 - BPMN modelling and transactional support for an expense reimbursement workflow

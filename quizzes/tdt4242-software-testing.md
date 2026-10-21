@@ -2,6 +2,8 @@
 
 [← All courses](../readme.md)
 
+> **Link types:** 📝 starts a quiz · 📖 opens reading material (lecture notes, course pages, external sites)
+
 [![Software Testing](https://img.shields.io/badge/Software%20Testing-25A162?style=for-the-badge&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4242)
 [![DevOps](https://img.shields.io/badge/DevOps-0078D7?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/DevOps)
 
@@ -14,18 +16,18 @@ A series on core software testing concepts, methods and best practices from the 
 
 ## Quizzes
 
-- [Software Testing and Quality – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting1) – basic testing terminology, unit testing and manual testing fundamentals
-- [Software Testing and Quality – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting2) – automated testing, integration testing and test strategies
-- [Software Testing and Quality – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting3) – testing methodologies
-- [Software Testing and Quality – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting4) – advanced topics such as performance testing and test coverage metrics
-- [Software Testing and Quality – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting5) – requirements engineering and test setup
-- [Software Testing and Quality – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting6) – code smells, DU coverage and DevOps
+- 📝 [Software Testing and Quality – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting1) – basic testing terminology, unit testing and manual testing fundamentals
+- 📝 [Software Testing and Quality – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting2) – automated testing, integration testing and test strategies
+- 📝 [Software Testing and Quality – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting3) – testing methodologies
+- 📝 [Software Testing and Quality – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting4) – advanced topics such as performance testing and test coverage metrics
+- 📝 [Software Testing and Quality – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting5) – requirements engineering and test setup
+- 📝 [Software Testing and Quality – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting6) – code smells, DU coverage and DevOps
 
 ### Part 7 – Domain testing, combinatorial testing and DevOps
 
 *Domain testing, code smells, sustainability, all-pairs combinatorial tests and DevOps terms.*
 
-**Quiz:** [Software Testing and Quality – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting7)
+📝 **Quiz:** [Software Testing and Quality – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting7)
 
 | Topic | Details |
 |---|---|
@@ -44,6 +46,6 @@ A series on core software testing concepts, methods and best practices from the 
 
 *Code refactoring, testing concepts, requirements quality and classification, sustainable software requirements, and branch and statement coverage.*
 
-**Quiz:** [Software Testing and Quality – Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting8)
+📝 **Quiz:** [Software Testing and Quality – Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting8)
 
 **Topics:** Refactoring · Testing techniques · Test levels · Quality attributes · Non-functional reqs · Sustainability · Safety · Test cases · Requirements quality · Traceability · Coverage · Random testing · Statement vs branch · Adaptive testing

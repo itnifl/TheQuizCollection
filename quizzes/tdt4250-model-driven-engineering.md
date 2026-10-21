@@ -2,6 +2,8 @@
 
 [← All courses](../readme.md)
 
+> **Link types:** 📝 starts a quiz · 📖 opens reading material (lecture notes, course pages, external sites)
+
 [![Model-Driven Development](https://img.shields.io/badge/MDD%2FMDA-455A64?style=for-the-badge&logo=eclipseide&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4250)
 [![Eclipse EMF](https://img.shields.io/badge/Eclipse%20EMF-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)](https://en.wikipedia.org/wiki/Eclipse_Modeling_Framework)
 [![UML](https://img.shields.io/badge/UML-FBB034?style=for-the-badge&logoColor=black)](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
@@ -35,9 +37,9 @@
 
 ### Part 1 – Introduction to MDE
 
-*Based on Lecture 1, [Schmidt 2006](https://ieeexplore.ieee.org/document/1610613) and [Whittle et al. 2014](https://ieeexplore.ieee.org/document/6824042).*
+*Based on Lecture 1, 📖 [Schmidt 2006](https://ieeexplore.ieee.org/document/1610613) and 📖 [Whittle et al. 2014](https://ieeexplore.ieee.org/document/6824042).*
 
-**Quiz:** [Model-Driven Development – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev1) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/ModelDrivenDev1)
+📝 **Quiz:** [Model-Driven Development – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev1) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/ModelDrivenDev1)
 
 | Topic | Details |
 |---|---|
@@ -56,9 +58,9 @@
 
 ### Part 2 – Software product lines
 
-*Based on Lecture 2 and [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
+*Based on Lecture 2 and 📖 [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
 
-**Quiz:** [Model-Driven Development – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev2)
+📝 **Quiz:** [Model-Driven Development – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev2)
 
 | Topic | Details |
 |---|---|
@@ -74,9 +76,9 @@
 
 ### Part 3 – Variability implementation
 
-*Based on Lecture 3 and [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
+*Based on Lecture 3 and 📖 [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
 
-**Quiz:** [Model-Driven Development – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev3)
+📝 **Quiz:** [Model-Driven Development – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev3)
 
 | Topic | Details |
 |---|---|
@@ -95,9 +97,9 @@
 
 ### Part 4 – Variability with parameters
 
-*The classic language-based variability mechanism. Based on Lecture 4 and [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
+*The classic language-based variability mechanism. Based on Lecture 4 and 📖 [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
 
-**Quiz:** [Model-Driven Development – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev4)
+📝 **Quiz:** [Model-Driven Development – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev4)
 
 | Topic | Details |
 |---|---|
@@ -116,9 +118,9 @@
 
 ### Part 5 – Domain-specific languages
 
-*Modelling and metamodelling with DSLs. Based on Lecture 5 and [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
+*Modelling and metamodelling with DSLs. Based on Lecture 5 and 📖 [Apel et al. 2013, Feature-Oriented Software Product Lines](https://link.springer.com/book/10.1007/978-3-642-37521-7).*
 
-**Quiz:** [Model-Driven Development – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev5)
+📝 **Quiz:** [Model-Driven Development – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev5)
 
 | Topic | Details |
 |---|---|
@@ -139,7 +141,7 @@
 
 *Based on Lecture 6, OMG MDA principles and the MOF/eMOF foundations.*
 
-**Quiz:** [Model-Driven Development – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev6) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/ModelDrivenDev6)
+📝 **Quiz:** [Model-Driven Development – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev6) · [FlexiQuiz version](https://www.flexiquiz.com/SC/N/ModelDrivenDev6)
 
 | Topic | Details |
 |---|---|
@@ -157,7 +159,7 @@
 
 *Based on Lecture 7 and the EMF/Ecore lecture material and examples.*
 
-**Quiz:** [Model-Driven Development – Part 7 (FlexiQuiz)](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
+📝 **Quiz:** [Model-Driven Development – Part 7 (FlexiQuiz)](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
 
 | Topic | Details |
 |---|---|

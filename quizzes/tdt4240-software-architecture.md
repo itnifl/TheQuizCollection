@@ -2,13 +2,15 @@
 
 [← All courses](../readme.md)
 
+> **Link types:** 📝 starts a quiz · 📖 opens reading material (lecture notes, course pages, external sites)
+
 [![Software Architecture](https://img.shields.io/badge/Software%20Architecture-37474F?style=for-the-badge&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4240)
 [![Architectural Patterns](https://img.shields.io/badge/Architectural%20Patterns-455A64?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Architectural_pattern)
 [![Quality Attributes](https://img.shields.io/badge/Quality%20Attributes-1565C0?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Software_quality)
 [![ATAM](https://img.shields.io/badge/ATAM-555555?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Architecture_tradeoff_analysis_method)
 [![Kruchten 4+1](https://img.shields.io/badge/Kruchten%204%2B1-37474F?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
 
-Based on previous exam questions in the NTNU course [TDT4240 Software Architecture](https://www.ntnu.edu/studies/courses/TDT4240). Companion compendium: [Wikipendium – TDT4240 Software Architecture](https://www.wikipendium.no/TDT4240_Software_Architecture).
+Based on previous exam questions in the NTNU course 📖 [TDT4240 Software Architecture](https://www.ntnu.edu/studies/courses/TDT4240). Companion compendium: 📖 [Wikipendium – TDT4240 Software Architecture](https://www.wikipendium.no/TDT4240_Software_Architecture).
 
 **Content:**
 - Definitions, importance and the influence cycle of software architecture (Bass, Clements and Kazman)
@@ -45,9 +47,9 @@ Based on previous exam questions in the NTNU course [TDT4240 Software Architectu
 
 ### Exam 2018
 
-*The 2018 exam, Part 1 (Problems 1–3, first 28 questions). The exam and solution papers are on NTNU Blackboard ([exam](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339566_1/xid-89339566_1), [solutions](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339567_1/xid-89339567_1); NTNU login required).*
+*The 2018 exam, Part 1 (Problems 1–3, first 28 questions). The exam and solution papers are on NTNU Blackboard (📖 [exam](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339566_1/xid-89339566_1), 📖 [solutions](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339567_1/xid-89339567_1); NTNU login required).*
 
-**Quiz:** [Software Architecture – Exam 2018](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-1)
+📝 **Quiz:** [Software Architecture – Exam 2018](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-1)
 
 | Topic | Details |
 |---|---|
@@ -82,7 +84,7 @@ Based on previous exam questions in the NTNU course [TDT4240 Software Architectu
 
 *12 questions from Part 1 of the 2019 exam.*
 
-**Quiz:** [Software Architecture – Exam 2019, Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-2)
+📝 **Quiz:** [Software Architecture – Exam 2019, Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-2)
 
 | Topic | Details |
 |---|---|
@@ -105,7 +107,7 @@ Based on previous exam questions in the NTNU course [TDT4240 Software Architectu
 
 *The rest of Part 1, plus Problem 2 (pattern selection), Problem 3 (QA scenarios for the Norwegian health portal) and two bonus questions on the "Big 7" quality attributes.*
 
-**Quiz:** [Software Architecture – Exam 2019, Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/TDT4240-3)
+📝 **Quiz:** [Software Architecture – Exam 2019, Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/TDT4240-3)
 
 | Topic | Details |
 |---|---|
@@ -126,7 +128,7 @@ Based on previous exam questions in the NTNU course [TDT4240 Software Architectu
 
 *A full rehearsal of the 2020 exam. Problem 1 walks through designing the Distributed Board Game Platform (DBGP) end to end (ASRs, patterns, tactics, logical view, process view, rationale). Problem 2 covers architecture for the edge.*
 
-**Quiz:** [Software Architecture – Exam 2020](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-4)
+📝 **Quiz:** [Software Architecture – Exam 2020](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-4)
 
 | Topic | Details |
 |---|---|
@@ -174,7 +176,7 @@ Based on previous exam questions in the NTNU course [TDT4240 Software Architectu
 
 *A full rehearsal of the 2025 exam, focusing on QA scenario construction, ASR identification, tactics and patterns, Kruchten 4+1 views (physical and logical) and architectural rationale.*
 
-**Quiz:** [Software Architecture – Exam 2025](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-5)
+📝 **Quiz:** [Software Architecture – Exam 2025](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-5)
 
 | Topic | Details |
 |---|---|
