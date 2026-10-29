@@ -18,7 +18,7 @@ All quizzes are open. Links go to **QuizMachine** unless they are marked **Flexi
 |---|---:|---|
 | [TDT4100 Java Programming](quizzes/tdt4100-java.md) | 1 | OOP, interfaces, inheritance, design patterns, streams and lambdas |
 | [TDT4120 Algorithms and Data Structures](quizzes/tdt4120-algorithms.md) | 32 | Sorting, trees, dynamic programming, greedy algorithms, graphs, shortest paths, flow, NP |
-| [TDT4136 Introduction to Artificial Intelligence](quizzes/tdt4136-artificial-intelligence.md) | 13 | Search, A*, constraint satisfaction, logic, adversarial search |
+| [TDT4136 Introduction to Artificial Intelligence](quizzes/tdt4136-artificial-intelligence.md) | 21 | Search, A*, constraint satisfaction, logic, adversarial search |
 | [TDT4175 Information Systems](quizzes/tdt4175-information-systems.md) | 13 | IS types, ERP, BPMN, SEQUAL, knowledge management, exam cases |
 | [TDT4180 Human-Centred Design](quizzes/tdt4180-human-centred-design.md) | 5 | CPUX-F, ISO 9241-210, usability evaluation |
 | [TDT4237 Software Security](quizzes/tdt4237-software-security.md) | 10 | Cryptography, secure coding, access control models, GDPR, web vulnerabilities |

@@ -29,6 +29,14 @@
 - 📝 [Lecture 6 (Chapter 8) – First-Order Logic](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture6chapter8)
 - 📝 [Lecture 7 (Chapter 9) – Inference in First-Order Logic](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture7chapter9)
 - 📝 [Lecture 8 (Chapter 6) – Adversarial Search and Games](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture8chapter6)
+- 📝 [Lecture 9 (Chapter 24) – Introduction](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture9chapter24introduction)
+- 📝 [Lecture 9 (Chapter 24)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture9chapter24)
+- 📝 [Lecture 10 (Chapter 17) – Introduction](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture10chapter17introduction)
+- 📝 [Lecture 10 (Chapter 17)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture10chapter17)
+- 📝 [Lecture 11 (Chapter 11) – Introduction](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture11chapter11introduction)
+- 📝 [Lecture 11 (Chapter 11)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture11chapter11)
+- 📝 [Lecture 12 (Chapters 10 and 28) – Introduction](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture12chapter10and28introduction)
+- 📝 [Lecture 12 (Chapters 10 and 28)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture12chapter10and28)
 
 ## About Assignment 1 – Search algorithms
 
