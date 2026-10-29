@@ -10,7 +10,9 @@ A curated collection of study quizzes, mostly for computer science courses at NT
 
 On the course pages, 📝 marks a link that starts a quiz and 📖 marks a link to reading material such as lecture notes or course pages.
 
-All quizzes are open. Links go to **QuizMachine** unless they are marked **FlexiQuiz**; a few quizzes are available on both platforms. QuizMachine can take a few seconds to load on the first visit while the server starts.
+All quizzes are open. Links go to **QuizMachine** unless they are marked **FlexiQuiz**; a few quizzes are available on both platforms.
+
+> **Server startup warning:** On a quiz's first visit, the QuizMachine server may be warming up and can take up to **30 seconds** to respond. Please wait for it to load.
 
 ## Courses
 
