@@ -22,6 +22,8 @@
 - 📝 [Assignment 2 Core Concepts](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment2coreconcepts)
 - 📝 [Assignment 3 Learning – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment3learningpart1)
 - 📝 [Assignment 3 Core Concepts](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment3coreconcepts)
+- 📝 [Assignment 4 Learning – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment4learningpart1)
+- 📝 [Assignment 4 Learning – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment4learningpart2)
 
 ### Lecture quizzes
 
