@@ -47,6 +47,8 @@ Short quizzes tied directly to each lecture.
 - 📝 [Lecture 7 – Greedy Algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson7greedyness)
 - 📝 [Lecture 8 – Graph Traversal](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson8graphtraversal)
 - 📝 [Lecture 9 – Minimum Spanning Trees](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson9minimalspanningtrees)
+- 📝 [Lecture 10 – Single-Source Shortest Paths (Introduction)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson10shortestwayfromonetomanyintroduction)
+- 📝 [Lecture 10 – Single-Source Shortest Paths](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson10shortestwayfromonetomany)
 
 [↑ Back to top](#tdt4120-algorithms-and-data-structures)
 
