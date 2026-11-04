@@ -49,6 +49,7 @@ Short quizzes tied directly to each lecture.
 - 📝 [Lecture 9 – Minimum Spanning Trees](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson9minimalspanningtrees)
 - 📝 [Lecture 10 – Single-Source Shortest Paths (Introduction)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson10shortestwayfromonetomanyintroduction)
 - 📝 [Lecture 10 – Single-Source Shortest Paths](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson10shortestwayfromonetomany)
+- 📝 [Lecture 11 – All-Pairs Shortest Paths](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson11shortestwayfrommanytomany)
 
 [↑ Back to top](#tdt4120-algorithms-and-data-structures)
 
