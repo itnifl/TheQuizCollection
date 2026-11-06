@@ -26,6 +26,7 @@
 ## Contents
 
 - [Lecture quizzes](#lecture-quizzes) – one short quiz per lecture
+- [Exam quizzes](#exam-quizzes)
 - [Practice quizzes](#practice-quizzes) – 16 broader quizzes, each mapped to the lectures it covers
 - [Resources](#resources)
 
@@ -51,6 +52,14 @@ Short quizzes tied directly to each lecture.
 - 📝 [Lecture 10 – Single-Source Shortest Paths](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson10shortestwayfromonetomany)
 - 📝 [Lecture 11 – All-Pairs Shortest Paths (Introduction)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson11shortestwayfrommanytomanyintroduction)
 - 📝 [Lecture 11 – All-Pairs Shortest Paths](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson11shortestwayfrommanytomany)
+
+[↑ Back to top](#tdt4120-algorithms-and-data-structures)
+
+## Exam quizzes
+
+### December 2025 exam – Part 1 of 2
+
+📝 **Quiz:** [TDT4120 – December 2025 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2025part1of2)
 
 [↑ Back to top](#tdt4120-algorithms-and-data-structures)
 
