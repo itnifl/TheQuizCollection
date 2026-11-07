@@ -57,13 +57,12 @@ Short quizzes tied directly to each lecture.
 
 ## Exam quizzes
 
-### December 2025 exam – Part 1 of 2
-
-📝 **Quiz:** [TDT4120 – December 2025 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2025part1of2)
-
-### December 2025 exam – Part 2 of 2
-
-📝 **Quiz:** [TDT4120 – December 2025 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2025part2of2)
+- 📝 [TDT4120 – December 2025 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2025part1of2)
+- 📝 [TDT4120 – December 2025 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2025part2of2)
+- 📝 [TDT4120 – August 2025 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2025part1of2)
+- 📝 [TDT4120 – August 2025 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2025part2of2)
+- 📝 [TDT4120 – December 2024 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2024part1of2)
+- 📝 [TDT4120 – December 2024 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2024part2of2)
 
 [↑ Back to top](#tdt4120-algorithms-and-data-structures)
 
