@@ -40,6 +40,19 @@
 - 📝 [Lecture 12 (Chapters 10 and 28) – Introduction](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture12chapter10and28introduction)
 - 📝 [Lecture 12 (Chapters 10 and 28)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136lecture12chapter10and28)
 
+### Exam quizzes
+
+- 📝 [TDT4136 – 2025 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2025part1of2)
+- 📝 [TDT4136 – 2025 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2025part2of2)
+- 📝 [TDT4136 – 2024 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2024part1of2)
+- 📝 [TDT4136 – 2024 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2024part2of2)
+- 📝 [TDT4136 – 2023 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2023part1of2)
+- 📝 [TDT4136 – 2023 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2023part2of2)
+- 📝 [TDT4136 – 2022 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2022part1of2)
+- 📝 [TDT4136 – 2022 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2022part2of2)
+- 📝 [TDT4136 – 2021 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2021part1of2)
+- 📝 [TDT4136 – 2021 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2021part2of2)
+
 ## About Assignment 1 – Search algorithms
 
 A hand-computation exercise set on the search algorithms from the lectures. The problem is a "speedrunning route" through an abstract map of Doom's *E1M8: Phobos Anomaly* (states A–I, start A, goal F): every edge costs 1, obstacles add cost (stairs +1, lift +2), and each state carries a heuristic value h(n) (h(A) = 25, h(I) = 22, h(F) = 0). There are eight tasks across three parts; successors are generated in alphabetical order and ties are broken alphabetically. Pseudocode references are to *Artificial Intelligence: A Modern Approach* – Breadth-First-Search (Fig. 3.9, p. 95) and Best-First-Search (Fig. 3.7, p. 91).
