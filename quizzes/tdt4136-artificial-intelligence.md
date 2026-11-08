@@ -52,6 +52,20 @@
 - 📝 [TDT4136 – 2022 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2022part2of2)
 - 📝 [TDT4136 – 2021 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2021part1of2)
 - 📝 [TDT4136 – 2021 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2021part2of2)
+- 📝 [TDT4136 – 2020 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2020part1of2)
+- 📝 [TDT4136 – 2020 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2020part2of2)
+- 📝 [TDT4136 – 2020 Resit Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2020resitpart1of2)
+- 📝 [TDT4136 – 2020 Resit Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2020resitpart2of2)
+- 📝 [TDT4136 – 2019 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2019part1of2)
+- 📝 [TDT4136 – 2019 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2019part2of2)
+- 📝 [TDT4136 – 2018 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2018part1of2)
+- 📝 [TDT4136 – 2018 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2018part2of2)
+- 📝 [TDT4136 – 2017 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2017part1of2)
+- 📝 [TDT4136 – 2017 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2017part2of2)
+- 📝 [TDT4136 – 2016 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2016part1of2)
+- 📝 [TDT4136 – 2016 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2016part2of2)
+- 📝 [TDT4136 – 2015 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2015part1of2)
+- 📝 [TDT4136 – 2015 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136exam2015part2of2)
 
 ## About Assignment 1 – Search algorithms
 
