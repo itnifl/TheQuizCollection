@@ -52,6 +52,7 @@ Short quizzes tied directly to each lecture.
 - 📝 [Lecture 10 – Single-Source Shortest Paths](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson10shortestwayfromonetomany)
 - 📝 [Lecture 11 – All-Pairs Shortest Paths (Introduction)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson11shortestwayfrommanytomanyintroduction)
 - 📝 [Lecture 11 – All-Pairs Shortest Paths](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson11shortestwayfrommanytomany)
+- 📝 [Lecture 12 – Maximum Flow](https://dev-quizmachine.covecode.net/Quiz/Take/tdt4120lesson12maximumflow)
 
 [↑ Back to top](#tdt4120-algorithms-and-data-structures)
 
