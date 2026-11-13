@@ -58,6 +58,8 @@ Short quizzes tied directly to each lecture.
 
 ## Exam quizzes
 
+- 📝 [TDT4120 – August 2026 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2026part1of2)
+- 📝 [TDT4120 – August 2026 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2026part2of2)
 - 📝 [TDT4120 – December 2025 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2025part1of2)
 - 📝 [TDT4120 – December 2025 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2025part2of2)
 - 📝 [TDT4120 – August 2025 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2025part1of2)
@@ -94,6 +96,16 @@ Short quizzes tied directly to each lecture.
 - 📝 [TDT4120 – December 2017 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2017part2of2)
 - 📝 [TDT4120 – December 2016 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2016part1of2)
 - 📝 [TDT4120 – December 2016 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2016part2of2)
+- 📝 [TDT4120 – August 2016 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2016part1of2)
+- 📝 [TDT4120 – August 2016 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2016part2of2)
+- 📝 [TDT4120 – December 2015 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2015part1of2)
+- 📝 [TDT4120 – December 2015 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2015part2of2)
+- 📝 [TDT4120 – August 2015 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2015part1of2)
+- 📝 [TDT4120 – August 2015 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2015part2of2)
+- 📝 [TDT4120 – December 2014 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2014part1of2)
+- 📝 [TDT4120 – December 2014 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examdecember2014part2of2)
+- 📝 [TDT4120 – August 2014 Exam, Part 1 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2014part1of2)
+- 📝 [TDT4120 – August 2014 Exam, Part 2 of 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120examaugust2014part2of2)
 
 [↑ Back to top](#tdt4120-algorithms-and-data-structures)
 
